@@ -1,0 +1,35 @@
+body {
+	font-family: Quicksand;
+}
+nav {
+	background-color: #7e57c200 !important;
+	box-shadow: none;
+	height: 90px!important;
+}
+nav a {
+	margin-top: 10px;
+}
+.nav-transparent a {
+	color: black!important;
+	border-radius: 30%;
+	margin-top: 10px;
+}
+
+.container-1 {
+	margin:10px;
+}
+.minimalist-container img {
+	width: 80%
+}
+.information-container {
+	text-align: justify;
+}
+.greeting {
+  margin: 20px;
+	font-family: 'Tw Cen MT';
+	font-size: 50px;
+	color: #554f56!important;
+}
+.resume-btn {
+	background-color: #be41dd ;
+}
