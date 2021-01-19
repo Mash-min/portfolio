@@ -109,18 +109,21 @@ nav a {
     font-size: 10px;
   }
 	.greeting {
-  	font-size: 40px;
+  	font-size: 30px;
     text-align: center;
   }
   .intro {
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 13px;
+    border-radius: 10px;  
     text-align: justify;
-    background-color: #d6d6d67a;
+    background-color: #ffffffc7;
     padding: 10px;
   }
+  .resume-container a {
+    font-size: 10px;
+  }
   .minimalist-container img {
-	  width: 75%;
+	  width: 100%;
 	}
   /* projectcss */
   .project-title {
