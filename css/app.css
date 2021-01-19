@@ -101,6 +101,13 @@ nav a {
 
 /* MEDIA QUERIES */
 @media (max-width: 575px) { 
+  .brand-logo {
+    font-size:20px!important;
+  }
+  .project-card-info a {
+    text-align: justify-all;
+    font-size: 10px;
+  }
 	.greeting {
   	font-size: 40px;
     text-align: center;
