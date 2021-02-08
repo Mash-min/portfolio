@@ -19,6 +19,10 @@ nav {
 .card-container {
 	padding: 10px!important;
 }
+.chip {
+  color: white;
+  background-color: #554f56;  
+}
 nav a {
 	margin-top: 10px;
 }
@@ -63,6 +67,11 @@ nav a {
   background: none;
   box-shadow: 0px 0px 2px 0px #b257a1;
 }
+.skill-title {
+  margin-top: 15px;
+  position: absolute;
+  font-size: 20px!important;
+}
 .project-card-container {
   padding: 5px;
   box-shadow: 0 0 1px 0px #8a8a8a;
@@ -91,13 +100,26 @@ nav a {
   color: #554f56!important;  
   margin: 10px;
 }
-::-webkit-scrollbar {
-  width: 13px;
+::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
 }
-::-webkit-scrollbar-thumb {
-  background: #bc73ce;
-  transition: .5s;
+
+::-webkit-scrollbar
+{
+  width: 12px;
+  background-color: #F5F5F5;
 }
+
+::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #a781a0;
+}
+
 
 /* MEDIA QUERIES */
 @media (max-width: 575px) { 
