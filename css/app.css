@@ -156,6 +156,10 @@ nav a {
   .project-description {
     font-size: 12px;
   }
+  .collection-item a {
+    font-size: 10px!important;
+    width: 48%
+  }
 }
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767px) {  
