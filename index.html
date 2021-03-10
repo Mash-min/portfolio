@@ -8,64 +8,259 @@
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 </head>
 <body>
+  <nav>
+    <div class="nav-wrapper container">
+      <a href="index.html" class="center brand-logo black-text">{{ MashMinPortfolio }}</a>
+    </div>
+  </nav>
 
-<nav>
-  <div class="nav-wrapper container">
-    <a href="index.html" class="brand-logo black-text">{{ MashMin }}</a>
-    <a href="#" data-activates="mobile-demo" class="button-collapse">
-    	<i class="fa fa-bars black-text" aria-hidden="true"></i>
+  <div class="fixed-action-btn toolbar">
+    <a class="btn-floating btn-large grey darken-4">
+      <i class="fa fa-link"></i>
     </a>
-    <ul class="right hide-on-med-and-down nav-transparent">
-      <li><a href="Skills.html" class="waves-effect waves-light">Skills</a></li>
-      <li><a href="projects.html" class="waves-effect waves-light">Projects</a></li>
-      <li><a href="education.html" class="waves-effect waves-light">Education</a></li>
-      <li><a href="gallery.html" class="waves-effect waves-light">Gallery</a></li>
+    <ul>
+      <li class="waves-effect waves-light"><a href="#personal_information"><i class="material-icons">Information</i></a></li>
+      <li class="waves-effect waves-light"><a href="#skills"><i class="material-icons">Skills</i></a></li>
+      <li class="waves-effect waves-light"><a href="#sample_projects"><i class="material-icons">Projects</i></a></li>
+      <li class="waves-effect waves-light"><a href="Resume.pdf"><i class="material-icons">Resume</i></a></li>
     </ul>
-    <ul class="side-nav" id="mobile-demo">
-      <li><a href="Skills.html" class="waves-effect waves-light">Skills</a></li>
-      <li><a href="projects.html" class="waves-effect waves-light">Projects</a></li>
-      <li><a href="education.html" class="waves-effect waves-light">Education</a></li>
-      <li><a href="gallery.html" class="waves-effect waves-light">Gallery</a></li>
   </div>
-</nav>
-<!-- NAVBAR -->
 
-<div class="row container-1 center index-data">
-  <div class="col l6 m8 offset-m2 s12 container information-container">
-    <div class="col l6 m12 minimalist-container hide-on-large-only">
+  <div class="row container-1 center index-data" id="personal_information">
+    <div class="col l6 m8 offset-m2 s12 container information-container">
+      <div class="col l6 m12 minimalist-container hide-on-large-only">
+        <img src="images/Me-nimalist.png">
+      </div>
+      <p class="greeting center">HELLO!! I am Mash</p>
+      <p class="intro">
+        Hello there my page visitor! my name is Mashiyyat Delos Santos a Programmer, Illustrator, Graphics Designer
+        and many more <i class="fa fa-meh-o"></i>. I create web applications using Frameworks such as Laravel with JavaScript, JQuery and some other cool stuffs. Go checkout my sample <a href="#sample_projects">Projects</a> to see my outputs and case studies. 
+      </p>
+      <div class="link-buttons">
+        <a class="btn-flat btn-floating btn-large waves-effect waves-light blue darken-4" href="https://web.facebook.com/delossantos.mashiyyat.sass">
+          <i class="fa fa-facebook white-text" aria-hidden="true"></i>
+        </a>
+        <a class="btn-flat btn-floating btn-large waves-effect waves-light black" href="https://github.com/mash-iyyat">
+          <i class="fa fa-github white-text" aria-hidden="true"></i>
+        </a>
+        <a class="btn-flat btn-floating btn-large waves-effect waves-light blue" href="https://twitter.com/Mash_min_css">
+          <i class="fa fa-twitter white-text" aria-hidden="true"></i>
+        </a>
+        <a class="btn-flat btn-floating btn-large waves-effect waves-light pink lighten-1" href="https://www.instagram.com/mashiyya_t/">
+          <i class="fa fa-instagram white-text" aria-hidden="true"></i>
+        </a>  
+      </div>
+      <div class="center resume-container">
+        <a href="Resume.pdf" class="btn btn-large btn-flat waves-effect waves-light pink darken-1 white-text resume-btn">
+          Download my Resume
+        </a>  
+      </div>
+    </div>
+    <div class="col l6 m6 s12 minimalist-container hide-on-med-and-down">
       <img src="images/Me-nimalist.png">
     </div>
-    <p class="greeting center">HELLO!! I am Mash</p>
-    <p class="intro">
-      Hello there user, my name is Mashiyyat Delos Santos a Programmer, Illustrator, Graphics Designer
-      and many more <i class="fa fa-meh-o"></i>. I create web applications using Frameworks and Libraries such as Laravel, JavaScript, Jquery and some other cool stuffs. Go checkout my sample <a href="projects.html">Projects</a> to see my outputs and case studies. 
-    </p>
-    <div class="link-buttons">
-      <a class="btn-flat btn-floating btn-large waves-effect waves-light blue darken-4" href="https://web.facebook.com/delossantos.mashiyyat.sass">
-        <i class="fa fa-facebook white-text" aria-hidden="true"></i>
-      </a>
-      <a class="btn-flat btn-floating btn-large waves-effect waves-light black" href="https://github.com/mash-iyyat">
-        <i class="fa fa-github white-text" aria-hidden="true"></i>
-      </a>
-      <a class="btn-flat btn-floating btn-large waves-effect waves-light blue" href="https://twitter.com/Mash_min_css">
-        <i class="fa fa-twitter white-text" aria-hidden="true"></i>
-      </a>
-      <a class="btn-flat btn-floating btn-large waves-effect waves-light pink lighten-1" href="https://www.instagram.com/mashiyya_t/">
-        <i class="fa fa-instagram white-text" aria-hidden="true"></i>
-      </a>  
-    </div>
-    
-    <div class="center resume-container">
-      <a href="Resume.docx" class="btn btn-large btn-flat waves-effect waves-light lime darken-2 white-text resume-btn">
-        Download my Resume
-      </a>  
-    </div>
-    
   </div>
-  <div class="col l6 m6 s12 minimalist-container hide-on-med-and-down">
-    <img src="images/Me-nimalist.png">
+
+  <div class="container skills-container" id="skills" style="display: none!important">
+    <div class="row card-panel">
+      <p class="greeting"><i class="fa fa-list"></i> Skills</p>
+      <div class="col l6 m12 s12 skill-items">
+        <ul class="collection with-header">
+          <li class="collection-item"><i class="fa fa-chevron-right"></i> PHP/Laravel 5 & 8</li>
+          <li class="collection-item"><i class="fa fa-chevron-right"></i> VueJS (Basics)</li>
+          <li class="collection-item"><i class="fa fa-chevron-right"></i> Rest API</li>
+          <li class="collection-item"><i class="fa fa-chevron-right"></i> JavaScript</li>
+          <li class="collection-item"><i class="fa fa-chevron-right"></i> Jquery</li>
+          <li class="collection-item"><i class="fa fa-chevron-right"></i> Git & GitHub</li>
+          <li class="collection-item"><i class="fa fa-chevron-right"></i> Responsive Web Design</li>
+          <li class="collection-item"><i class="fa fa-chevron-right"></i> Ruby on Rails</li>
+        </ul>
+      </div>
+      <div class="col l6 m12 s12 skill-items">
+        <ul class="collection with-header">
+          <li class="collection-item"><i class="fa fa-chevron-right"></i> Adobe Photoshop</li>
+          <li class="collection-item"><i class="fa fa-chevron-right"></i> Adobe Illustrator</li>
+          <li class="collection-item"><i class="fa fa-chevron-right"></i> Bootstrap</li>
+          <li class="collection-item"><i class="fa fa-chevron-right"></i> MaterializeCSS</li>
+          <li class="collection-item"><i class="fa fa-chevron-right"></i> DBMS (MySQL/Model Relations/ Queries)</li>
+          <li class="collection-item"><i class="fa fa-chevron-right"></i> AJAX</li>
+          <li class="collection-item"><i class="fa fa-chevron-right"></i> Heroku</li>
+          <li class="collection-item"><i class="fa fa-chevron-right"></i> Basic Network Troubleshooting</li>
+        </ul>
+      </div>
+    </div>
   </div>
-</div>
+
+  <div class="container projects-container" id="sample_projects" style="display: none!important">
+    <div class="card-panel">
+      <p class="greeting"><i class="fa fa-list"></i> Sample Projects</p>
+      <ul class="collection with-header">
+        <li class="collection-item">
+          <h5 class="project-title">Shopping App</h5>
+          <p class="project-description">
+            <i class="fa fa-chevron-right"></i> A simple shopping App where you can order product, add to cart, or create your own store.
+          </p>
+          <div class="chip">
+            Laravel 8
+          </div>
+          <div class="chip">
+            HTML/CSS/JavaScript
+          </div>
+          <div class="chip">
+            JQuery
+          </div>
+          <div class="chip">
+            Bootstrap
+          </div>
+          <div class="chip">
+            AJAX
+          </div>
+          <li class="collection-item">
+            <a href="http://rent-a-gf.herokuapp.com/" class="btn btn-flat waves-light waves-effect blue lighten-1 white-text" target="_blank">
+              <i class="fa fa-link"></i>
+            </a>
+            <a class="btn btn-flat waves-light waves-effect grey darken-2 white-text"><i class="fa fa-github"></i></a>
+          </li>
+        </li>
+        <li class="collection-item">
+          <h5 class="project-title">Mash Min Blog</h5>
+          <p class="project-description">
+            <i class="fa fa-chevron-right"></i> A simple blog website made for my Artworks. Just a simple website where I can post my page contents and blogs, you can join my blogsite create your own account and see other's content.
+          </p>
+          <div class="chip">
+            Laravel 8
+          </div>
+          <div class="chip">
+            HTML/CSS/JavaScript
+          </div>
+          <div class="chip">
+            JQuery
+          </div>
+          <div class="chip">
+            MaterialCSS
+          </div>
+          <div class="chip">
+            AJAX
+          </div>
+          <li class="collection-item">
+            <a href="http://mminblog.herokuapp.com/" class="btn btn-flat waves-light waves-effect blue lighten-1 white-text" target="_blank">
+              <i class="fa fa-link"></i>
+            </a>
+            <a class="btn btn-flat waves-light waves-effect grey darken-2 white-text"><i class="fa fa-github"></i></a>
+          </li>
+        </li>
+        <li class="collection-item">
+          <h5 class="project-title">Rent a Girlfriend</h5>
+          <p class="project-description">
+            <i class="fa fa-chevron-right"></i> A website where you can rent your own girlfriend. Create your own account, find a girl you can afford and rent her as your girlfriend for a certain time.
+          </p>
+          <div class="chip">
+            Laravel 8
+          </div>
+          <div class="chip">
+            HTML/CSS/JavaScript
+          </div>
+          <div class="chip">
+            JQuery
+          </div>
+          <div class="chip">
+            MaterialCSS
+          </div>
+          <div class="chip">
+            AJAX
+          </div>
+          <li class="collection-item">
+            <a href="http://rent-a-gf.herokuapp.com/" class="btn btn-flat waves-light waves-effect blue lighten-1 white-text" target="_blank">
+              <i class="fa fa-link"></i>
+            </a>
+            <a class="btn btn-flat waves-light waves-effect grey darken-2 white-text"><i class="fa fa-github"></i></a>
+          </li>
+        </li>
+        <li class="collection-item">
+          <h5 class="project-title">Todo list App</h5>
+          <p class="project-description">
+            <i class="fa fa-chevron-right"></i> A very simple TODO List App
+          </p>
+          <div class="chip">
+            Laravel 8
+          </div>
+          <div class="chip">
+            HTML/CSS/JavaScript
+          </div>
+          <div class="chip">
+            JQuery
+          </div>
+          <div class="chip">
+            MaterialCSS
+          </div>
+          <div class="chip">
+            AJAX
+          </div>
+          <li class="collection-item">
+            <a href="http://mm-todo-list.herokuapp.com/" class="btn btn-flat waves-light waves-effect blue lighten-1 white-text" target="_blank">
+              <i class="fa fa-link"></i>
+            </a>
+            <a class="btn btn-flat waves-light waves-effect grey darken-2 white-text">
+              <i class="fa fa-github"></i>
+            </a>
+          </li>
+        </li>
+        <li class="collection-item">
+          <h5 class="project-title">Azadal</h5>
+          <p class="project-description">
+            <i class="fa fa-chevron-right"></i> A bootleg online shopping website where you can search and buy products, create your own shop and sell your products. Make your own account and add some products to your cart now :p
+          </p>
+          <div class="chip">
+            Laravel 5
+          </div>
+          <div class="chip">
+            HTML/CSS/JavaScript
+          </div>
+          <div class="chip">
+            JQuery
+          </div>
+          <div class="chip">
+            MaterialCSS
+          </div>
+          <div class="chip">
+            AJAX
+          </div>
+          <li class="collection-item">
+            <a href="http://azadal.herokuapp.com/" class="btn btn-flat waves-light waves-effect blue lighten-1 white-text" target="_blank">
+              <i class="fa fa-link"></i>
+            </a>
+            <a class="btn btn-flat waves-light waves-effect grey darken-2 white-text"><i class="fa fa-github"></i></a>
+          </li>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <footer class="page-footer purple lighten-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Emails</h5>
+          <ul>
+            <li> <i class="fa fa-chevron-right"></i> delossantos.mash@gmail.com</li>
+            <li> <i class="fa fa-chevron-right"></i> delossantos.mashiyyat@gmail.com</li>
+          </ul>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Contact Me</h5>
+          <ul>
+            <li> <i class="fa fa-chevron-right"></i> # 0998-220-5660</li>
+            <li> <i class="fa fa-chevron-right"></i> # 0927-011-8376</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+      <div class="container">
+      © 2021 MashMinPortfolio
+      </div>
+    </div>
+  </footer>
 
 </body>
   <script src="js/jquery-3.2.1.min.js"></script>
