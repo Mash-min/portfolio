@@ -82,21 +82,9 @@ nav .brand-logo {
   font-size: 20px!important;
 }
 .skill-text li{
-  /* text-align: center; */
   font-family: 'Roboto';
   font-size: 16px;
 	color: #554f56!important;
-}
-.project-card-container {
-  padding: 5px;
-  box-shadow: 0 0 1px 0px #8a8a8a;
-  border-radius: 10px;  
-  background: #ffffff;
-  margin-bottom: 20px;
-}
-.project-card-container img {
-  width: 100%;
-  border-radius: 3%!important;
 }
 .project-card-info {
   text-align: justify;
@@ -109,15 +97,14 @@ nav .brand-logo {
   margin-top: 20px;
   margin-bottom: 30px;
 }
-.project-card {
-  padding: 0px!important;
-  text-align: justify;
-}
 .project-title {
   font-family: 'Sen Regular';
   font-size: 30px;
   color: #554f56!important;  
   margin: 10px;
+}
+.chip {
+  margin-top: 10px;
 }
 .page-footer {
   margin-top: 100px;
