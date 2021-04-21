@@ -7,6 +7,9 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
+html {
+  scroll-behavior: smooth;
+}
 nav {
 	background-color: #7e57c200 !important;
 	box-shadow: none;
