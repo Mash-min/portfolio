@@ -2,7 +2,7 @@ body {
 	font-family: Quicksand Regular;
 	content: '';
   width: 100%;
-  background: url(../images/svg1.svg);
+  /* background: url(../images/svg1.svg); */
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -16,7 +16,7 @@ nav {
 	height: 90px!important;
 }
 .card {
-	box-shadow: none;
+	box-shadow: 0px 0px 1px 0px grey;
 	padding: 10px;
 }
 .card-container {
@@ -69,43 +69,6 @@ nav .brand-logo {
 .resume-container {
 	margin:20px;
 }
-.skill-card-container {
-  background-color: #ffffff7a;
-}
-.skill-card-container img {
-  width: 100%;
-}
-.skill-card {
-  background: none;
-  box-shadow: 0px 0px 2px 0px #b257a1;
-}
-.skill-title {
-  margin-top: 15px;
-  position: absolute;
-  font-size: 20px!important;
-}
-.skill-text li{
-  font-family: 'Roboto';
-  font-size: 16px;
-	color: #554f56!important;
-}
-.project-card-info {
-  text-align: justify;
-  padding: 10px!important;
-}
-.project-description {
-  font-size: 15px;
-  font-family: 'Roboto';
-  color: #554f56!important;
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
-.project-title {
-  font-family: 'Sen Regular';
-  font-size: 30px;
-  color: #554f56!important;  
-  margin: 10px;
-}
 .chip {
   margin-top: 10px;
 }
@@ -121,6 +84,9 @@ nav .brand-logo {
   font-family: 'Roboto';
   font-size: 16px;
 	color: #554f56!important;
+}
+.max-width {
+  width: 100%!important;
 }
 
 ::-webkit-scrollbar-track

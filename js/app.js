@@ -3,6 +3,23 @@ $(document).ready(function() {
 	  scrollOffset: 500
   });
   $(".button-collapse").sideNav();
+  $('.owl-carousel').owlCarousel({
+	  loop: true,
+	  margin: 15,
+	  center: true,
+	  dots: false,
+	  responsive: {
+		0:{
+            items:2,
+        },
+        600:{
+            items:2,
+        },
+        1000:{
+            items:4,
+        }
+	  }
+  });
 });
 
 let skills = document.getElementById('skills');
