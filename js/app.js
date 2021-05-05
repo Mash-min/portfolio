@@ -6,32 +6,19 @@ $(document).ready(function() {
   $('.owl-carousel').owlCarousel({
 	  loop: true,
 	  margin: 15,
-	  center: true,
-	  dots: false,
+	  center: false,
+	  dotsEach: true,
+    center: true,
 	  responsive: {
 		0:{
-            items:1,
+            items:1.3,
         },
         600:{
-            items:2,
+            items:2.3,
         },
         1000:{
-            items:4,
+            items:3.3,
         }
 	  }
   });
 });
-
-let skills = document.getElementById('skills');
-let sample_projects = document.getElementById('sample_projects');
-var options = [
-	{selector: '#sample_projects', offset: 500, callback: function(el) {
-		Materialize.fadeInImage($(el));
-		sample_projects.style.display = '';
-	} },
-	{selector: '#skills', offset: 500, callback: function(el) {
-		Materialize.fadeInImage($(el));
-		skills.style.display = '';
-	} }
-  ];
-  Materialize.scrollFire(options);

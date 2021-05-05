@@ -2,7 +2,7 @@ body {
 	font-family: Quicksand Regular;
 	content: '';
   width: 100%;
-  /* background: url(../images/svg1.svg); */
+  background: url(../images/svg1.svg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -21,6 +21,10 @@ nav {
 }
 .card-container {
 	padding: 10px!important;
+}
+.card-title {
+  font-family: 'Lexend Deca';
+  color: #554f56;  
 }
 .chip {
   color: white;
@@ -54,13 +58,13 @@ nav .brand-logo {
 }
 .greeting {
   margin: 20px;
-	font-family: 'Sen Regular';
+	font-family: 'Righteous Regular';
 	font-size: 50px;
 	color: #554f56!important;
 }
 .intro {
   font-size: 18px;
-  font-family: 'Roboto';
+  font-family: 'Lexend Deca';
 	color: #554f56!important;
 }
 .resume-btn {
@@ -81,12 +85,25 @@ nav .brand-logo {
 }
 
 .skill-items li {
-  font-family: 'Roboto';
+  font-family: 'Lexend Deca';
   font-size: 16px;
 	color: #554f56!important;
 }
 .max-width {
   width: 100%!important;
+}
+
+.owl-theme .owl-controls .owl-page {
+  display: inline-block;
+}
+.owl-theme .owl-controls .owl-page span {
+  background: none repeat scroll 0 0 #869791;
+  border-radius: 20px;
+  display: block;
+  height: 12px;
+  margin: 5px 7px;
+  opacity: 0.5;
+  width: 12px;
 }
 
 ::-webkit-scrollbar-track
@@ -126,8 +143,7 @@ nav .brand-logo {
   .intro {
     font-size: 15px;
     border-radius: 10px;  
-    text-align: justify;
-    background-color: #ffffffc7;
+    /* text-align: justify; */
     padding: 10px;
   }
   .resume-container a {
@@ -148,6 +164,9 @@ nav .brand-logo {
   .collection-item a {
     font-size: 10px!important;
     width: 48%
+  }
+  body {
+    background-size: 420% 100%;
   }
 }
 /*// Small devices (landscape phones, 576px and up)*/
@@ -173,6 +192,9 @@ nav .brand-logo {
   .brand-logo {
     font-size: 20px!important;
   }
+  body {
+    background-size: 350% 100%;
+  }
 }
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991px) { 
@@ -193,6 +215,9 @@ nav .brand-logo {
   .skill-items li {
     font-size:15px;
   }
+  body {
+    background-size: 250% 100%;
+  }
 }
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199px) {  
@@ -209,6 +234,9 @@ nav .brand-logo {
   }
   .project-description {
     font-size: 18px;
+  }
+  body {
+    background-size: 100% 50%;
   }
 }
 /*// Extra large devices (large desktops, 1200px and up)*/
