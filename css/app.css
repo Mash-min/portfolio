@@ -44,11 +44,24 @@ nav .brand-logo {
   font-family: 'Sen Regular';
   font-size: 17px;
 }
+.project-card {
+  padding: 10px 0px 10px 0px!important;
+}
+.project-card .card-content{
+  padding: 0px!important;
+}
+.project-description {
+  padding: 20px;
+}
 .container-1 {
 	margin:10px;
 }
 .card-panel {
   background: #ffffffa8!important;
+}
+.card-content p{
+  text-align: center;
+	font-family: 'Manjari Regular';
 }
 .minimalist-container img {
 	width: 80%

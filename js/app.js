@@ -11,7 +11,7 @@ $(document).ready(function() {
     center: true,
 	  responsive: {
 		0:{
-            items:1.3,
+            items:1.1,
         },
         600:{
             items:2.3,
