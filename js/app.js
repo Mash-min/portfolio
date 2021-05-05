@@ -8,10 +8,10 @@ $(document).ready(function() {
 	  margin: 15,
 	  center: false,
 	  dotsEach: true,
-    center: true,
+      center: true,
 	  responsive: {
 		0:{
-            items:1.1,
+            items:1.2,
         },
         600:{
             items:2.3,

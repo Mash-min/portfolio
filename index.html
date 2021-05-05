@@ -10,20 +10,23 @@
     <link rel="stylesheet" href="css/owl.theme.default.css">
 </head>
 <body>
-  <nav>
-    <div class="nav-wrapper container">
-      <a href="/" class="center brand-logo black-text">{{ MashMin }}</a>
-    </div>
-  </nav>
+  <div class="navbar-fixed">
+    <nav class="grey darken-4">
+      <div class="nav-wrapper container">
+        <a href="/" class="center brand-logo black-text">{{ MashMin }}</a>
+      </div>
+    </nav>
+  </div>
 
   <div class="fixed-action-btn toolbar">
     <a class="btn-floating btn-large grey darken-4">
       <i class="fa fa-link"></i>
     </a>
-    <ul>
+    <ul class="anchor-link-buttons">
       <li class="waves-effect waves-light"><a href="#personal_information"><i class="material-icons">Information</i></a></li>
       <li class="waves-effect waves-light"><a href="#skills"><i class="material-icons">Skills</i></a></li>
       <li class="waves-effect waves-light"><a href="#sample_projects"><i class="material-icons">Projects</i></a></li>
+      <li class="waves-effect waves-light"><a href="#social_links"><i class="material-icons">Social Links</i></a></li>
       <li class="waves-effect waves-light"><a href="Resume.pdf"><i class="material-icons">Resume</i></a></li>
     </ul>
   </div>
@@ -59,18 +62,29 @@
           <li class="collection-item"><i class="fa fa-chevron-right"></i> VueJS (Fundamentals)</li>
           <li class="collection-item"><i class="fa fa-chevron-right"></i> Rest API</li>
           <li class="collection-item"><i class="fa fa-chevron-right"></i> HTML/ CSS/ JavaScript</li>
-          <li class="collection-item"><i class="fa fa-chevron-right"></i> Jquery</li>
-          <li class="collection-item"><i class="fa fa-chevron-right"></i> Git & GitHub</li>
-          <li class="collection-item"><i class="fa fa-chevron-right"></i> Responsive Web Design</li>
-          <li class="collection-item"><i class="fa fa-chevron-right"></i> Ruby on Rails 5</li>
         </ul>
       </div>
+
       <div class="col l5 m5 s12 skill-items">
         <ul class="collection with-header">
           <li class="collection-item"><i class="fa fa-chevron-right"></i> Adobe Photoshop CC</li>
           <li class="collection-item"><i class="fa fa-chevron-right"></i> Adobe Illustrator</li>
           <li class="collection-item"><i class="fa fa-chevron-right"></i> Bootstrap 4 & 5</li>
           <li class="collection-item"><i class="fa fa-chevron-right"></i> MaterializeCSS</li>
+        </ul>
+      </div>
+
+      <div class="col l5 offset-l1 m5 offset-m1 s12 skill-items">
+        <ul class="collection with-header">
+          <li class="collection-item"><i class="fa fa-chevron-right"></i> Jquery</li>
+          <li class="collection-item"><i class="fa fa-chevron-right"></i> Git & GitHub</li>
+          <li class="collection-item"><i class="fa fa-chevron-right"></i> Responsive Web Design</li>
+          <li class="collection-item"><i class="fa fa-chevron-right"></i> Ruby on Rails 5</li>
+        </ul>
+      </div>
+      
+      <div class="col l5 m5 s12 skill-items">
+        <ul class="collection with-header">
           <li class="collection-item"><i class="fa fa-chevron-right"></i> DBMS (MySQL/Model Relations/ Queries)</li>
           <li class="collection-item"><i class="fa fa-chevron-right"></i> AJAX</li>
           <li class="collection-item"><i class="fa fa-chevron-right"></i> Heroku</li>
@@ -99,6 +113,7 @@
             </div>
           </div>
         </div>
+
         <div class="item">
           <div class="card project-card">
             <div class="card-content">
@@ -115,6 +130,7 @@
             </div>
           </div>
         </div>
+
         <div class="item">
           <div class="card project-card">
             <div class="card-content">
@@ -131,6 +147,7 @@
             </div>
           </div>
         </div>
+
         <div class="item">
           <div class="card project-card">
             <div class="card-content">
@@ -147,6 +164,7 @@
             </div>
           </div>
         </div>
+        
         <div class="item">
           <div class="card project-card">
             <div class="card-content">
@@ -166,6 +184,50 @@
       </div>
   </div>
 
+  <div id="social_links">
+    <p class="greeting center"><i class="fa fa-list"></i> Social Links</p>
+    <div class="container">
+      <div class="row">
+        <div class="col l3 m3 s6 ">
+          <a href="https://www.facebook.com/delossantos.mashiyyat.sass" target="_blank">
+            <div class="card social-link-card blue darken-1">
+              <div class="card-content">
+                <i class="fa fa-facebook fa-4x"></i>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col l3 m3 s6">
+          <a href="https://www.facebook.com/delossantos.mashiyyat.sass" target="_blank">
+            <div class="card social-link-card blue lighten-1">
+              <div class="card-content">
+                <i class="fa fa-twitter fa-4x"></i>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col l3 m3 s6">
+          <a href="https://www.facebook.com/delossantos.mashiyyat.sass" target="_blank">
+            <div class="card social-link-card grey darken-3">
+              <div class="card-content">
+                <i class="fa fa-github fa-4x"></i>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col l3 m3 s6">
+          <a href="https://www.facebook.com/delossantos.mashiyyat.sass" target="_blank">
+            <div class="card social-link-card pink darken-3">
+              <div class="card-content">
+                <i class="fa fa-instagram fa-4x"></i>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <footer class="page-footer purple lighten-1">
     <div class="container">
       <div class="row">
@@ -174,6 +236,7 @@
           <ul>
             <li> <i class="fa fa-chevron-right"></i> delossantos.mash@gmail.com</li>
             <li> <i class="fa fa-chevron-right"></i> delossantos.mashiyyat@gmail.com</li>
+            <li> <i class="fa fa-chevron-right"></i> minmash009@gmail.com</li>
           </ul>
         </div>
         <div class="col l4 offset-l2 s12">
