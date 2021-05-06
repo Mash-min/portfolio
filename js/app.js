@@ -21,4 +21,19 @@ $(document).ready(function() {
         }
 	  }
   });
+
+  $('.owl-carousel-2').owlCarousel({
+	  loop: true,
+	  margin: 15,
+	  center: false,
+    dots: false,
+    nav: true,
+    center: true,
+	  responsive: {
+      1000:{
+          items:1.2,
+      }
+	  }
+  });
+
 });
